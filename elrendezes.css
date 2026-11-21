@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    width: 85%;
+
+    background-image: url(hatter.jpg);
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+    grid-template-areas:
+        "h h h"
+        "n a as"
+        "n f as";
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+article {
+    grid-area: a;
+}
+
+aside {
+    grid-area: as;
+}
+
+footer {
+    grid-area: f;
+}
+main{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.mellekszoveg{
+    grid-area: msz;
+}
+.foszoveg{
+    grid-area: fsz;
+}
+.kep{
+    grid-area: kep;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "fsz fsz"
+    "kep msz"
+    "kep msz";
+}

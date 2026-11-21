@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+main{
+    margin: auto;
+    background-image: url(hatter.jpg);
+
+}
+header{
+  background-color: rgb(46, 123, 138);
+  color: rgb(216, 216, 196);
+  text-align: center;
+  padding: 30px;
+}
+nav{
+      background-color: rgb(216, 216, 196);
+}
+article{
+      background-color: rgb(216, 216, 196);
+      padding: 15px ;
+}
+img{
+    border: 11px solid rgb(46, 123, 138) ;
+    border-bottom: 40px solid rgb(46, 123, 138);
+}
+aside{
+      background-color: rgb(216, 216, 196);
+
+}
+p.oldalszoveg{
+    color: rgb(46, 123, 138);
+  font-family: cursive;
+}
+footer{
+background-color: rgb(216, 216, 196);
+}
+nav{
+  border-right: 3px dotted rgb(46, 123, 138);
+}
+aside{
+  border-left: 3px dotted rgb(46, 123, 138);
+  padding: 15px;
+}
+footer{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 40px 0px 20px 0px;
+}
+li{
+  list-style-type: none;
+  margin: 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+font-family: 'Times New Roman', Times, serif;
+}
