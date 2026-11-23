@@ -22,6 +22,7 @@ article{
 img{
     border: 11px solid rgb(46, 123, 138) ;
     border-bottom: 40px solid rgb(46, 123, 138);
+    max-width: 100%;
 }
 aside{
       background-color: rgb(216, 216, 196);
